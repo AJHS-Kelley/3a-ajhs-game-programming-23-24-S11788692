@@ -1,0 +1,45 @@
+# while loop -- think musical chairs 
+Loopcounter = 0
+while Loopcounter < 100:
+   Print (f"The current loop count is {loopcounter}.")
+loopcounter +=1
+
+loopcounter =0
+while  loopcounter >= 0
+Print (f"The current loop count is {loopcounter}.")
+loopcounter -= 1
+
+
+#loopcounter =0
+while  loopcounter >= 0
+Print loopcounter =0
+while  loopcounter >= 0
+Print (f"The current loop count is {loopcounter}.")
+loopcounter -= 1
+
+
+
+
+
+loopcounter =0
+while  loopcounter >= 0
+Print (f"The current loop count is {loopcounter}.")
+if loopcounter % 2 == 0
+print loopcounter =0
+while  loopcounter >= 0
+Print (f"The current loop count is {loopcounter}.")
+loopcounter -= 1
+if: 
+   (f"The current loop count is {loopcounter} is even.")
+else:
+     print(f"The current loopcount is {loopcounter} is odd .")  
+loopcounter += 1
+
+
+# for loop -- think go fish ~! Used when you know numbers you need.
+
+for: eachnumber in range (10):
+ #eachnumber is known as the 'iterable number 
+#range(x) number from (0)
+
+print (eachnumber) 

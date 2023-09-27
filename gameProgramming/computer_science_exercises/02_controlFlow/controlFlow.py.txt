@@ -1,0 +1,10 @@
+# while loop -- think musical chairs 
+Loopcounter = 0
+while Loopcounter < 100:
+   Print (f"The current loop count is {loopcounter}.")
+loopcounter +=1
+
+loopcounter =0
+while  loopcounter >= 0
+Print (f"The current loop count is {loopcounter}.")
+loopcounter -= 1
