@@ -110,7 +110,7 @@ cpuscore += 1
 print ("The cpu won this round!\n")
 imagelos.show()
 
-if playerscore >=3:
+if   playerscore >=3:
      print ("you have won this rounds")
   imagewin.show()
 
