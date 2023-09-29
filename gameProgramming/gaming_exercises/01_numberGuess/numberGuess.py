@@ -22,8 +22,8 @@
  
 #Award cpu a point|
 
+# NEED TO TEST AND COMPLETE CODE TODAY. 
 
- 
 #GUESSES a number tavion, myers v0.1
 import random, tracemalloc, winsound
 from PIL import image
