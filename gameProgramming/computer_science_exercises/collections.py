@@ -1,4 +1,4 @@
-# Collections Examples, Tavion Myers, v0.1a
+# Collections Examples, Tavion Myers, v0.1b
 
 #LIST -- ORDERED, CHANGEABLE, ALLOWS DUPLICATE VALUES 
 breakfastfoods = ["Bacon","Waffles", "Pancakes","Cereal","Milk"]
@@ -13,3 +13,7 @@ classgpa =[2.56, 3.67, 2,18, 3.63, 1.76, 2.99]
 print (breakfastfoods)
 print (testscore)
 print (classgpa)
+
+#Accessing specific list elements
+print (breakfastfoods[0])
+print (testscore [2])
