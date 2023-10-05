@@ -27,15 +27,15 @@ weaponlist = [
 # firstelement is the index[0]
 # shortcut to the last element is index [-1]
 weaponnumber = 0 
-while len (weaponlist):
-    if weaponlist[0] == True:
+while weaponnumber <len (weaponlist):
+    if weaponnumber == 0 and weaponlist[0] == True:
         print("Your character has equipped a C4.\n")
-    if weaponlist[1] == True:
+    if weaponnumber == 0 and weaponlist[1] == True:
         print ("Your character has equipped a impact bombs.\n")
-    if weaponlist[2] == True:
+    if weaponnumber ==0 and weaponlist[2] == True:
         print ("You haven't touched a Pistol yet.\n")
-    if weaponlist[3] == True:
+    if weaponnumber == 0 and weaponlist[3] == True:
         print ("You haven't touched a ice bomb yet.\n")
-    if weaponlist[4] == True:
+    if weaponnumber == 0 and weaponlist[4] == True:
         print("You have a fire sword on your left hip.\n")
-        
+    weaponnumber += 1
