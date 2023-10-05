@@ -1,16 +1,41 @@
-# Adding item 
-playerInventory = []
-while  len(playerInventory) <10:
-    item = input("what do you want to add\n")
-    playerInventory. append(item) # .append() adds to the end of the list.
+# # Adding item 
+# playerInventory = []
+# while  len(playerInventory) <10:
+#     item = input("what do you want to add\n")
+#     playerInventory. append(item) # .append() adds to the end of the list.
  
-playerInventory.sort()
-# .whatever()is known as a method. It means "do this to that" 
-print(playerInventory)
+# playerInventory.sort()
+# # .whatever()is known as a method. It means "do this to that" 
+# print(playerInventory)
 
-# Remove item 
-while len(playerInventory) >5:
+# # Remove item 
+# while len(playerInventory) >5:
 
-    playerInventory.Remove(item)
-    playerInventory.sort()
-    print(playerInventory)
+#     playerInventory.Remove(item)
+#     playerInventory.sort()
+#     # print(playerInventory)
+# Fixed inventory system 
+weaponlist = [
+    True,# C4
+    True,# impact bombs
+    False,#pistol
+    False,# ice bombs
+    True # fire sword 
+]
+# each item in the list is a element 
+# the location of each element in the list is the index 
+# firstelement is the index[0]
+# shortcut to the last element is index [-1]
+weaponnumber = 0 
+while len (weaponlist):
+    if weaponlist[0] == True:
+        print("Your character has equipped a C4.\n")
+    if weaponlist[1] == True:
+        print ("Your character has equipped a impact bombs.\n")
+    if weaponlist[2] == True:
+        print ("You haven't touched a Pistol yet.\n")
+    if weaponlist[3] == True:
+        print ("You haven't touched a ice bomb yet.\n")
+    if weaponlist[4] == True:
+        print("You have a fire sword on your left hip.\n")
+        
