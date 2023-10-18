@@ -49,4 +49,39 @@ item = input("which key would you like?\n").lower()
 if item in doorkeys:
     print(f"You have a {item} key!\n.")
 else:
-    print(f"you don't have a {item} key.")    
+    print(f"you don't have a {item} key.")
+
+# Random enemy generator Number
+
+enemybase =[
+    "Gunmen",
+    "sniper",
+    "frager",
+    "sheld",
+    "assassin"
+]
+
+enemytype =[
+    ""
+]
+
+enemyprefix = [
+
+]
+  
+  import random
+
+# index range (0,4)
+enemynames = [
+
+]
+while len(enemynames) < 15:
+    enemybasegen = enemybase [random. randint(0,4)]
+    enemytypegen = enemytype [random. randint(0,4)]
+    enemyprefixgen = enemyprefix [random. randint(0,4)]
+
+    print(enemybasegen)
+    print(enemytypegen)
+    print(enemyprefixgen)
+
+    newenemy = enemyprefixgen +  " "  +  " "  +  " "  +
