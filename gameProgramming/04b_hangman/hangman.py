@@ -81,3 +81,19 @@ for letter in missedletters:
        for letter in blanks:
         print(letter, end = ' ')
     print()
+
+
+    def getguess(alreadyguessed):
+      #Only aqllow: single caracter, A-Z only, not guessed already.
+      while True: # default 'infinite' loop
+        print('please guess a letter to guess the secretword.')
+        guess = input()
+        guess = guess.lower()
+        if len(guess) != 1:
+          print('please enter one character.\n')
+          elif guess not in 'abcdefghijklmnopqrstuvwxyz':
+            print('please enter an engkish letter only.')
+            elif guess in alrealdyguess:
+              print('Already guessed. please guess a different letter!')
+              else:
+                  return guess
