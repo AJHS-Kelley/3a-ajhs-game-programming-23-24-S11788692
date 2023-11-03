@@ -75,5 +75,9 @@ for letter in missedletters:
     for i in range(len(secretword)):
       if secretword[i] in correctletters:
         blanks = blanks[:i] + secretword[i] + blanks[i+1:]
+       
         #the : character is used to slice strings into pieces.
-        blanks[:0] +
+        
+       for letter in blanks:
+        print(letter, end = ' ')
+    print()
