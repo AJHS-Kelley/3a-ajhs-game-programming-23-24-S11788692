@@ -96,4 +96,9 @@ for letter in missedletters:
             elif guess in alrealdyguess:
               print('Already guessed. please guess a different letter!')
               else:
-                  return guess
+                  return guess 
+
+def playagain():
+  print('Would u like to play again? text Yes or No.')
+  return input().lower().starswith(' y ') # rturn True/False based on the input.
+  
