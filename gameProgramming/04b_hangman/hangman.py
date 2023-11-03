@@ -56,11 +56,24 @@ def getRandomWord(wordlist):
     print(wordIndex)
     return wordlist[wordIndex]
 
-def displayboard (incorrectletters, correctletters, sercertword):
-    print(HANGMAN_BOARD[len (incorrectletters)])
+def displayboard (missedletters, correctletters, secretword):
+    print(HANGMAN_BOARD[len (missedletters)])
     print()
 
 i = 0
 while i < len(HANGMAN_BOARD):
   print(HANGMAN_BOARD[i])
   i += 1
+
+print('missed letters:', end = ' ' )
+for letter in missedletters:
+        print(?, end = ' ')
+    print()
+
+    blanks = '_' * len(secretword)
+
+    for i in range(len(secretword)):
+      if secretword[i] in correctletters:
+        blanks = blanks[:i] + secretword[i] + blanks[i+1:]
+        #the : character is used to slice strings into pieces.
+        blanks[:0] +
