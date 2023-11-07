@@ -82,7 +82,6 @@ for letter in missedletters:
         print(letter, end = ' ')
     print()
 
-
     def getguess(alreadyguessed):
       #Only aqllow: single caracter, A-Z only, not guessed already.
       while True: # default 'infinite' loop
@@ -101,4 +100,9 @@ for letter in missedletters:
 def playagain():
   print('Would u like to play again? text Yes or No.')
   return input().lower().starswith(' y ') # rturn True/False based on the input.
-  
+  print('Let\'s play Hangman!)
+  missedletters = ''
+  correctletters = ''
+  secretword = getRandomWord(wordlist)
+  print('testing sercret word:' + secretword)
+  gameisdone = False
