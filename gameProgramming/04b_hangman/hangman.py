@@ -129,4 +129,13 @@ while True: # Two ways to exit while True: return OR break
       if len(missedletters) == len(HANGMAN_BOARD) - 1
       displayboard(missedletters, correctletters, secretword)
       print('You don\'t get the word.)
-      print('The sercret word was' + secretword)  
+      print('The sercret word was' + secretword)
+      gameisdone = True 
+
+  if playagain():
+    sercretword = getRandomWord(wordlist)
+    missedletters = ' '
+    correctletters = ' '
+    gameisdone = False
+  else:
+    break  
