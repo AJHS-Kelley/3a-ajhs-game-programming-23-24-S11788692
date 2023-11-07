@@ -106,3 +106,21 @@ def playagain():
   secretword = getRandomWord(wordlist)
   print('testing sercret word:' + secretword)
   gameisdone = False
+# Game loop begin here
+while True: # Two ways to exit while True: return OR break
+    displayboard(missedletters, correctletters, secretword)
+
+    guess = getguess(missedletters + correctletters)
+    
+    if guess in secretword: # Is the guess in the sercretword?
+      correctletters = correctletters + guess 
+
+      # check for vivtory 
+      foundAllLetters = True 
+      for i in range (len(secretword)):
+        if secretword[i] not in correctletters:
+          foundAllLetters = False
+          break
+      if foundAllLetters:
+        print('Congraulations!')
+        gameisdone = True   
