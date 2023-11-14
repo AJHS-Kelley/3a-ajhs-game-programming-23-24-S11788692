@@ -67,7 +67,7 @@ while i < len(HANGMAN_BOARD):
 
 print('missed letters:', end = ' ' )
 for letter in missedletters:
-        print(?, end = ' ')
+    print(letter, end = ' ')
     print()
 
     blanks = '_' * len(secretword)
@@ -78,7 +78,7 @@ for letter in missedletters:
        
         #the : character is used to slice strings into pieces.
         
-       for letter in blanks:
+       for letter in blanks
         print(letter, end = ' ')
     print()
 
