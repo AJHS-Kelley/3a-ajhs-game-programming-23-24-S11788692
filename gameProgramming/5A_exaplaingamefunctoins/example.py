@@ -3,9 +3,9 @@ import random
 
 # Values 
 golfClubs = ["Putter","Wedge","Drives"]
-streghtwitClubs = 0 
-weather = 0 
-hittingSkill = 0
+streghtwitClubs = 0 # 
+weather = None # Sunny, light Rain, Windy, Light snow
+hittingSkill = 0 # scale of 0 - 99, 99 being the best 
 
 
 def golfClubs():
