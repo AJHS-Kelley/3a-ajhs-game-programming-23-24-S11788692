@@ -48,7 +48,7 @@ O    |
 / \  |
      |
    ======''']
-
+      
 def getRandomWord(wordlist):
     wordIndex = random.randint(0 , len(wordlist) - 1)
     # len(listname) -1 
@@ -67,7 +67,11 @@ while i < len(HANGMAN_BOARD):
 
 print('missed letters:', end = ' ' )
 for letter in missedletters:
+<<<<<<< HEAD
     print(letter, end = ' ')
+=======
+    print(?, end = ' ')
+>>>>>>> c2971e525d0b0188cd2a9f4795340f3c2f0206ae
     print()
 
     blanks = '_' * len(secretword)
