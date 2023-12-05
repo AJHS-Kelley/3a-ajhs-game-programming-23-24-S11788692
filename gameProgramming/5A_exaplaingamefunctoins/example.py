@@ -14,7 +14,8 @@ def golfClubs(Putter, Wedge, Driver):
 
 
 def PowerwitClubs():
-    if powereitclub is 5-25% 
+    if powereitclubs is 5-25% < 1-15 yards - Putter 
+    else powerwitclubs is 26-65% < 16-100 yards - Wedge and 66-100% < 101-300 yards Driver 
     pass
 
 
