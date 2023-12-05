@@ -14,7 +14,7 @@ def golfClubs(Putter, Wedge, Driver):
 
 
 def PowerwitClubs():
-    if 1-15yds < 5-25%/
+    if powereitclub is 5-25% 
     pass
 
 
