@@ -3,12 +3,13 @@ import random
 
 # Values 
 golfClubs = ["Putter","Wedge","Drives"]
-streghtwitClubs = 0 # 
+streghtwitClubs = 0 # Putter 5-25% 1-15yds, Wedge 26-65% 16-100yds Driver 66-100% 101-300yds
 weather = None # Sunny, light Rain, Windy, Light snow
-hittingSkill = 0 # scale of 0 - 99, 99 being the best 
+hittingSkill = 0 # scale of 0% - 99%, 99% being the best \
 
 
-def golfClubs():
+def golfClubs(Putter, Wedge, Driver): 
+    
     pass 
 
 
@@ -16,7 +17,7 @@ def streghtwitClubs():
     pass
 
 
-def weather():
+def weather(random.randint):
     pass 
 
 
