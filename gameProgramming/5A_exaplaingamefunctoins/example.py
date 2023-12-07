@@ -4,8 +4,8 @@ import random
 # Values 
 golfClubs = ["Putter","Wedge","Drives"]
 PowerwitClubs = 0 # Putter 5-25% 1-15yds, Wedge 26-65% 16-100yds Driver 66-100% 101-300yds
-weather = ["Sunny", "Light Rain", "heavy Rain", "light Fog"]
-windSpeed = 0
+weather = ["Sunny", "Light Rain", "Heavy Rain", "light Fog"]
+windSpeed = ["light Wind","mild Wind","heavy Wind"]
 hittingSkill = 0 # scale of 0% - 99%, 99% being the best \
 
 
@@ -21,8 +21,8 @@ def PowerwitClubs():
 
 
 def weather():
-weather = random.randint ()
-windsSpeed =random. randint()
+weather = random.randint (0,3)
+                windsSpeed =random. randint(0-2)
     pass 
 
 
