@@ -6,7 +6,7 @@ golfClubs = ["Putter","Wedge","Drives"]
 PowerwitClubs = 0 # Putter 5-25% 1-15yds, Wedge 26-65% 16-100yds Driver 66-100% 101-300yds
 weather = ["Sunny", "Light Rain", "Heavy Rain", "light Fog"]
 windSpeed = ["light Wind","mild Wind","heavy Wind"]
-Strokes = +
+Strokes = (0,12)
 
 
 def golfClubs(Putter, Wedge, Driver): 
@@ -15,8 +15,8 @@ def golfClubs(Putter, Wedge, Driver):
 
 
 def PowerwitClubs():
-    if powereitclubs is 5-25% < 1-15 yards - Putter 
-    else powerwitclubs is 26-65% < 16-100 yards - Wedge and 66-100% < 101-300 yards Driver 
+    if powereitclubs is  1-15 yards - Putter 
+    else powerwitclubs is  16-100 yards - Wedge and   101-300 yards Driver 
     pass
 
 
@@ -33,5 +33,5 @@ def Strokes():
     if you make it in 2 Strokes
     print("You made a Par")
     if you make it in 3 Strokes
-    print ("You made a ")
+    print ("You made a  ")
     pass 
