@@ -28,4 +28,15 @@ print(examplePerson1.weight)
 examplePerson1.weight = 175
 
     def tooShort(self):
-        print("")
+        print("This function will dertemine if you are too short to ride")
+        if examplePerson self. height >= "5'0\"
+
+#del COMPLETELY remove the proertry 
+# Deleting Whole objects 
+
+print(examplePerson1)
+del (examplePerson1)
+print(examplePerson1)
+
+    class Food:
+        pass
