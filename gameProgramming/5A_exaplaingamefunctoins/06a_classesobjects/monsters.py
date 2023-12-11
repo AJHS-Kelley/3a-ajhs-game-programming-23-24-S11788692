@@ -9,4 +9,6 @@ class Monster:
     def __str__(self):
         return f"Monster Name{self.Speed}\n{self.Damage}\n{self.Color}\n"
 
+myMonster = (78, 350, orange)        
+
 
