@@ -15,8 +15,8 @@ def golfClubs(Putter, Wedge, Driver):
 
 
 def PowerwitClubs():
-    if powereitclubs is  1-15 yards - Putter 
-    else powerwitclubs is  16-100 yards - Wedge and   101-300 yards Driver 
+    if powereitclubs is  1-15 yds - Putter 
+    else powerwitclubs is  16-100 yds - Wedge and   101-300 yards Driver 
     pass
 
 
