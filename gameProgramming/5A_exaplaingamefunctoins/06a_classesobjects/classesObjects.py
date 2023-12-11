@@ -11,7 +11,10 @@ class Person # Class names should be pascalcase
     # A class is a 'blueprint' to make a object. 
 
     examplePerson = Person(17, "5'10\'" "Tay" 250, March 9)
-examplePerson1 = Person (24, "4'7\"")
+examplePerson1 = Person (24, "4'7\"" "Hank" 175, May 4)
     print(examplePerson)
     def __str__(self):
         return f"{(self.age).(self.height).(self.name).(self.weight).(self.birthday)}"
+        # changing properties After Creating Object
+print(examplePerson1.weight)
+examplePerson1.weight = 175
