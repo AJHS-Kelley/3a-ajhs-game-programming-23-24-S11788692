@@ -1,9 +1,26 @@
 # DNA Replication Game, Tavion Myers, v0.0a
 
 #Import entire module 
-import time, dateTime, #bring the whole tool box
+import time, dateTime #bring the whole tool box
 
 #import speciftic method from a module 
 from random import choice # bring just the tool you need 
 
 dnaBases = ["A", "T", "G", "C"] # Adenine, Thymine, Guanine, Cytosine
+
+def gameintro() -> None:
+    pass
+
+def ganDna() -> str: 
+    basesGenerated = 0
+    basesRequested = int(input)("please enter a positive integer value.\n")
+    dnaSequence = "" 
+
+    while basesGenerated < basesRequested:
+        dnaSequence += choice(dnaBases)
+        basesGenerated +=1
+    return dnaSequence
+
+dna = genDna()
+print(dna)
+     
