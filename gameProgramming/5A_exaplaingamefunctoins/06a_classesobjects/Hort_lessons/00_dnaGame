@@ -1,0 +1,9 @@
+# DNA Replication Game, Tavion Myers, v0.0a
+
+#Import entire module 
+import time, dateTime, #bring the whole tool box
+
+#import speciftic method from a module 
+from random import choice # bring just the tool you need 
+
+dnaBases = ["A", "T", "G", "C"] # Adenine, Thymine, Guanine, Cytosine
