@@ -26,8 +26,25 @@ def genRNA(dnaSequence: str) -> tuple:
     print()
     print
     rnaStart = time.time()
-    RNAsequence input()
+    RNAsequence input("C", "")
     rnastop = time.time()
     rnatime = rnaStop - rnaStart
     return(RNAsequence, RNAtime) # Tuple are ordered (index),Unchangeable, and it allows duplicates 
+
+def checksequence(dnaSequence: str, RNAsequence: str) -> bool:
+    ismatch = False
+    for eachbase in RNAsequence:
+        if eachbase == "U" and dnaSequence != "T":
+            ismatch = False
+            break 
+        elif c base 
+        elif T base 
+        elif G base
+        else:
+            ismatch = True 
+    return ismatch
+
+
+
+    return ismatch 
      
