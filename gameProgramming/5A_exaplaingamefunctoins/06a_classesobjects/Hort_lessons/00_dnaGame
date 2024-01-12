@@ -9,7 +9,8 @@ from random import choice # bring just the tool you need
 dnaBases = ["A", "T", "G", "C"] # Adenine, Thymine, Guanine, Cytosine
 
 def gameintro() -> None:
-    pass
+    print("Hi!!! welcome to the DNA Replication game.")
+    print("Your goal in this game is to try to ")
 
 def genDNA() -> str: 
     basesGenerated = 0
@@ -26,7 +27,7 @@ def genRNA(dnaSequence: str) -> tuple:
     print()
     print
     rnaStart = time.time()
-    RNAsequence input("C", "")
+    RNAsequence input("C", "G", "U", "T")
     rnastop = time.time()
     rnatime = rnaStop - rnaStart
     return(RNAsequence, RNAtime) # Tuple are ordered (index),Unchangeable, and it allows duplicates 
@@ -43,6 +44,8 @@ def checksequence(dnaSequence: str, RNAsequence: str) -> bool:
         else:
             ismatch = True 
     return ismatch
+
+     
 
 
 
