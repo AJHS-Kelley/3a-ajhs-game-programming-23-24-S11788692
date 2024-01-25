@@ -97,4 +97,21 @@ main()
 def checkforquit() -> None:
     for event in pygame.event.get(quit):
         terminate()
-    For event in pygame.event.get(keyup)                                                                                                    
+    For event in pygame.event.get(keyup)
+    if event.key == K_ESCAPE:
+        terminate()
+        pygame.event.post(event)
+
+def getlefttopoftile (tileX: int, tileY: int) -> tuple 
+    left = XMARGIN + (tileX * Tilesize) + (tileX - 1)
+    top = YMARGIN + (TileY * TILESIZE) + (tileY - 1 )
+    return (top,left)
+
+def getspotClick(Board: list, x: int, y: int) -> tuple:
+    for tileY in range(len(board[0])):
+        left, top + getlefttopoftile(tileX, Tilesize,Tilesize) 
+        tilerect =pygame. Rect(left, top, Tilesize, Tilesize)
+
+        if tilerect. collidrpoint(x,y): 
+            return (tileX, tileY)
+    return (None, None)                                                                                                 
