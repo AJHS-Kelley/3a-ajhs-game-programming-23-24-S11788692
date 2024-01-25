@@ -93,4 +93,8 @@ def main():
 
 
 main()
-                                                                                                        
+
+def checkforquit() -> None:
+    for event in pygame.event.get(quit):
+        terminate()
+    For event in pygame.event.get(keyup)                                                                                                    
