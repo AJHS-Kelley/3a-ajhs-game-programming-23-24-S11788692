@@ -19,7 +19,7 @@ BLANK = None
 BLACK =         (  0,   0,   0)
 WHITE =         (255, 255, 255)
 BRIGHTBLUE =    (  0,  50, 255)
-DARKTURQUOISE = (  3,  54,  73)
+purple =        (  3,  54,  73)
 GREEN =         (  0, 204,   0)
 
 BGCOLOR = WHITE
