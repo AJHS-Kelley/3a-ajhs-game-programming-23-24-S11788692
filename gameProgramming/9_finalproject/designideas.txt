@@ -1,0 +1,14 @@
+Game type : mini golf 
+
+Levels: Two different visually aeras golfcorse
+- floating platforms 
+- random teleporting holes
+-timed traps 
+
+
+
+-To has the less amount of shots taking on a 21 hole golf corse 
+- Hitting the ball off the golf corse
+
+Difflculty: 
+Pro(hard mode)
