@@ -21,5 +21,17 @@
  if B > C:
     B, C = C, B
  if a > b: 
- 
-A, B = B, A 
+    A, B = B, A 
+
+order = input()
+mystring = " "
+
+    for i in range(len(order)):
+    if order [i] == "A":
+    mystring += str(A) + " "
+    elif mystring +=(B)
+
+    else:mystring += (C)
+
+Print(mystring) 
+
