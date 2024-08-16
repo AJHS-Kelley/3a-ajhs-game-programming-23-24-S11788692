@@ -52,5 +52,23 @@ myInteger = -2.5555555;
 
 Console.WriteLine()
 
+myNumber = mydouble / myinteger;
+
+myNumber = mydouble * myinteger;
+
+myNewNumber = mydouble % 2;
+
+int students = 6;
+int numslices = 36; 
+int leftOvers;
+
+leftOver = numSlices % students; 
+
+int x = 0;
+x++;
+
+x--; 
+
+
 
 int my
