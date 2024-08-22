@@ -69,6 +69,16 @@ x++;
 
 x--; 
 
+x+= 1;
+x*= 1;
+x/+ 1;
+x-= 1;
+x%= 1;
 
 
-int my
+int y = 21;
+int z = 3;
+
+console.Writeline(y == z);
+
+
